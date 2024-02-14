@@ -8,4 +8,4 @@ jobs:
   first-job: 
     runs-on: ubuntu-latest
     steps:
-      - uses: Zuzana01/TestCustomAction@latest
+      - uses: Zuzana01/TestCustomAction@v1
