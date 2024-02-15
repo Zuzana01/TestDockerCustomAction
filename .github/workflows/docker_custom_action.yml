@@ -10,3 +10,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/deploy-s3-docker/
+        id: run-time
+      - run: echo "What time?" ${{steps.run-time.outputs.time}}
